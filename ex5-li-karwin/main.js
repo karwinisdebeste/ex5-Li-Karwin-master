@@ -6,8 +6,6 @@ var parser = require('body-parser'); // extensie op express voor eenvoudig body 
 // Toevoegen van de code van de dal vervangt onze
 // onze lokale 'datastore'. deze variable bewaart onze state. 
 var dal = require("./storage.js");
-//validatie inladen
-var validation = require("./validate.js");
 // aanmaken van de webserver variabele
 var app = express();
 // automatische json-body parsers van request MET media-type application/json gespecifieerd in de request.
